@@ -1,0 +1,5 @@
+/* Body */ 
+#AnchorPane{
+ -fx-background-image: url('F2.jpg'); 
+ -fx-background-size: cover; 
+}

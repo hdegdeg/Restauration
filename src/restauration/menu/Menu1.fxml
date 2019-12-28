@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="1062.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.2556708958093041" layoutX="6.0" layoutY="5.0" prefHeight="596.0" prefWidth="1050.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button layoutX="39.0" layoutY="183.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="188.0" text="Ajouter PLAT" />
+                  <Button layoutX="39.0" layoutY="268.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="188.0" text="Modifier MENU" />
+                  <Button layoutX="39.0" layoutY="353.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="188.0" text="Supprimer PLAT" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView layoutX="14.0" layoutY="115.0" prefHeight="467.0" prefWidth="754.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="159.0" opacity="0.5" prefHeight="92.0" prefWidth="458.0" style="-fx-background-color: white; -fx-background-radius: 40px;" />
+                  <Label alignment="CENTER" layoutX="238.0" layoutY="-6.0" prefHeight="72.0" prefWidth="306.0" style="-fx-font-family: roboto; -fx-font-size: 70;" text="MENU">
+                     <effect>
+                        <ColorAdjust />
+                     </effect>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
